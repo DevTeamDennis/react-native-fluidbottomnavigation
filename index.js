@@ -364,7 +364,7 @@ const styles = {
 		alignSelf: "center",
 		height: 17,
 		width: 17,
-		backgroundColor: "#4C53DD",
+		backgroundColor: "#654321",
 		borderRadius: 8.5
 	},
 	miniBubble: {
@@ -372,7 +372,7 @@ const styles = {
 		alignSelf: "center",
 		width: 22,
 		height: 22,
-		backgroundColor: "#4C53DD",
+		backgroundColor: "#654321",
 		borderRadius: 11
 	},
 	titleContainer: {
