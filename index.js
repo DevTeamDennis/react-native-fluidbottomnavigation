@@ -87,7 +87,7 @@ class TabBar extends Component<TabBarProps> {
 	}
 
 	static defaultProps = {
-		tintColor: "rgb(76, 83, 221)",
+		tintColor: "rgb(211, 211, 211)",
 		iconStyle: { width: 20, height: 20 },
 		isRtl: false,
 		containerBackgroundColor: "white",
@@ -99,46 +99,46 @@ class TabBar extends Component<TabBarProps> {
 		switch (type) {
 			case iconTypes.AntDesign:
 				return <AntDesign name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.Entypo:
 				return <Entypo name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.EvilIcons:
 				return <EvilIcons name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.Feather:
 				return <Feather name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.FontAwesome:
 				return <FontAwesome name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.FontAwesome5:
 				return <FontAwesome5 name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.Fontisto:
 				return <Fontisto name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.Foundation:
 				return <Foundation name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.Ionicons:
 				return <Ionicons name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.MaterialCommunityIcons:
 				return <MaterialCommunityIcons name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.MaterialIcons:
 				return <MaterialIcons name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.Octicons:
 				return <Octicons name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.SimpleLineIcons:
 				return <SimpleLineIcons name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			case iconTypes.Zocial:
 				return <Zocial name={icon} style={{ color: tintColor, fontSize: this.props.iconSize }} />
-			
+
 			default:
 				return <AntDesign name="question" style={{ color: tintColor, fontSize: this.props.iconSize }} />
 		}
@@ -364,7 +364,7 @@ const styles = {
 		alignSelf: "center",
 		height: 17,
 		width: 17,
-		backgroundColor: "#654321",
+		backgroundColor: "#D3D3D3",
 		borderRadius: 8.5
 	},
 	miniBubble: {
@@ -372,7 +372,7 @@ const styles = {
 		alignSelf: "center",
 		width: 22,
 		height: 22,
-		backgroundColor: "#654321",
+		backgroundColor: "#D3D3D3",
 		borderRadius: 11
 	},
 	titleContainer: {
