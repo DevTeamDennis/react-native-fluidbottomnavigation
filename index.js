@@ -249,7 +249,7 @@ class TabBar extends Component<TabBarProps> {
 								numberOfLines={1}
 								adjustsFontSizeToFit={true}
 								style={{
-									color: this.props.tintColor
+									color: "black"
 								}}
 							>
 								{item.title}
