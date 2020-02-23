@@ -333,7 +333,7 @@ TabBar.propTypes = {
 			title: PropTypes.string.isRequired,
 			icon: PropTypes.string,
 			image: PropTypes.number,
-			tintColor: PropTypes.string.isRequired,
+			tintColor: PropTypes.string,
 			default: PropTypes.bool
 		})
 	),
