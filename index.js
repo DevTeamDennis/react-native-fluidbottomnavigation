@@ -284,7 +284,8 @@ class TabBar extends Component<TabBarProps> {
 			}),
 			Animated.timing(this.animatedImageValues[index], {
 				toValue: 1,
-				duration: 800
+				duration: 800,
+				useNativeDriver: true
 			})
 		]).start();
 	};
@@ -311,7 +312,8 @@ class TabBar extends Component<TabBarProps> {
 			Animated.timing(this.animatedImageValues[index], {
 				toValue: 0,
 				duration: 400,
-				delay: 350
+				delay: 350,
+				useNativeDriver: true
 			})
 		]).start();
 	};
